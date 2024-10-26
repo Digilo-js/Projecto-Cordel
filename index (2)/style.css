@@ -31,10 +31,11 @@ html, body{
  }
 
  main > h1{
+  padding: 10px;
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 6vw;
+    font-size: 8vw;
  }
  main p {
    padding-bottom: 50px;
