@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labo</title>
+</head>
+<body>
+    <h1>Digita qualquer numero</h1>
+    <input type="number" name="nume" id="num">
+    <input type="button" value="Verficar" id="bt" onclick="verficar ()">
+    <h2 id="res">Aguarde...</h2>
+    <img src="bala.jpg" alt="" id="bam">
+</body>
+    <script>
+        function verficar() {
+            var n2 = window.document.getElementById("num")
+            var res = window.document.getElementById("res")
+            var bam = window.document.getElementById("bam")
+            var n1 = Number (n2.value)
+            res.innerHTML= "O Numero digitado foi " + n1
+            if (n1 >12) {
+                bam.innerHTML= "vai ja a escola "
+                img.src="bala.jpg".alt=""
+               
+                
+            }else {
+               res.innerHTML="Relacha e aproveita "
+            }
+        }
+    </script>
+</html>
